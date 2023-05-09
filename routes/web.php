@@ -18,3 +18,10 @@ Route::get('/', function () {
 });
 
 Route::get('/product', [ProductController::class, 'index']);
+Route::get('/product/create', [ProductController::class, 'create']);
+Route::get('/product/store', [ProductController::class, 'store']);
+Route::get('/product/create', [ProductController::class, 'create']);
+Route::get('/product/edit', [ProductController::class, 'edit']);
+Route::get('/product/update', [ProductController::class, 'update']);
+Route::get('/product/destroye', [ProductController::class, 'destroye']);
+Route::get('/product/show', [ProductController::class, 'show']);
