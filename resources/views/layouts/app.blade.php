@@ -16,7 +16,7 @@
         @yield('content')
     </div>
     <br>
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-md-3 offset-1">
             <div class="card" style="width: 18rem;">
                 <img src="{{ asset('img/jeimy.jpg')}}" class="card-img-top" alt="...">
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
