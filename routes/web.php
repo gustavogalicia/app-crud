@@ -25,3 +25,9 @@ Route::get('/product/edit', [ProductController::class, 'edit']);
 Route::get('/product/update', [ProductController::class, 'update']);
 Route::get('/product/destroye', [ProductController::class, 'destroye']);
 Route::get('/product/show', [ProductController::class, 'show']);
+
+Route::controller(PodcastController::class)->group(function () {
+	Route::get('/podcasts', 'index');
+	Route::get('/podcasts/{podcast}', 'show');
+	Route::post('/podcasts', 'store');
+});
